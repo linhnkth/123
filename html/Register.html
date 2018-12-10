@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+    <link rel="stylesheet" href="../css/Register.css">
+</head>
+<body>
+<h1>Register-Form</h1>
+<div class="header">
+    <img src="https://farm1.staticflickr.com/305/18522955871_89a528d6ec.jpg" alt="">
+    <div class="size">
+    <a href="login.html" title="Member Login">Login</a>
+    <a href="create-song.html" title="Create Song">Create Song</a>
+    <a href="list-song.html" title="Latest Song">Latest Song</a>
+    <a href="my-song.html" title="My Song">My Song</a>
+</div>
+</div>
+<div class="main">
+    <form action="" method="post" name="register-form">
+        <div class="row">
+            <div class="col-2">First Name</div>
+            <div class="col-6">
+                <input type="text" name="firstName">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Last Name</div>
+            <div class="col-6">
+                <input type="text" name="lastName">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Password</div>
+            <div class="col-6">
+                <input type="password" name="password">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Confirm Password</div>
+            <div class="col-6">
+                <input type="password" name="confirmPassword">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Address</div>
+            <div class="col-6">
+                <textarea name="address" cols="30" rows="8"></textarea>
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Phone</div>
+            <div class="col-6"><input type="text" name="phone">
+            <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Avatar</div>
+            <div class="col-6"><input type="text" name="avatar">
+            <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Gender</div>
+            <div class="col-6">
+                <select name="gender">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                    <option value="2">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Email</div>
+            <div class="col-6"><input type="email" name="email">
+            <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">Birthday</div>
+            <div class="col-6"><input type="datetime-local" name="birthday">
+            <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-6">
+                <input type="button" name="btnSubmit" value="Submit">
+                <input type="reset" name="btnReset" value="Reset">
+            </div>
+        </div>
+    </form>
+</div>
+<script src="../js/Register.js"></script>
+</body>
+</html>

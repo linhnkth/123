@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 16px;
+    background-color:#f1f1f1;
+}
+
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: #3d9e66;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+[class*='col-']{
+    width: 100%;
+}
+
+.row input{
+    width: 120px;
+    height: 30px;
+    border-radius:10px ;
+}
+
+img {
+    width: 200px;
+}
+a {
+    padding: 10px;
+    font-size: 22px;
+}
+form {
+    box-sizing: border-box;
+    width: 340px;
+    margin: 100px auto 0;
+    box-shadow: 4px 4px 8px 3px rgba(1, 1, 1, 1.2);
+    padding-bottom: 40px;
+    border-radius: 3px;
+}
+form .register{
+    color: #0e6252;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.size {
+    margin-left: 40%;
+}
