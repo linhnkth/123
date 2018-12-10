@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17f8eaa6-3756-4bd4-ba5e-93853dcc0930" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/create-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/create-song.html" afterDir="false" />
-    </list>
+    <list default="true" id="17f8eaa6-3756-4bd4-ba5e-93853dcc0930" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -90,7 +88,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/create-song.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="-348">
               <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
@@ -228,12 +226,12 @@
       <workItem from="1544357647014" duration="41000" />
       <workItem from="1544358702682" duration="9394000" />
       <workItem from="1544369647040" duration="2371000" />
-      <workItem from="1544411351142" duration="22341000" />
+      <workItem from="1544411351142" duration="22582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64710000" />
+    <option name="totallyTimeSpent" value="64951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,7 +390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/create-song.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="-348">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
